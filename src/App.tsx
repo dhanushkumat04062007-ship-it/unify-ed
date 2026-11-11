@@ -11,7 +11,7 @@ function App() {
     if (savedUser) {
       try {
         setUser(JSON.parse(savedUser));
-      } catch (error) {
+      } catch {
         localStorage.removeItem('university_user');
       }
     }

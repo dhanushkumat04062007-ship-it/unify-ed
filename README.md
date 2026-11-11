@@ -1,6 +1,12 @@
-# University Assistant
+# Unify-Ed — University Assistant
 
 A React + Vite frontend for a university support portal. The app gives students, faculty, and admins a single dashboard for mock chat support, exam notices, timetable viewing, question paper lookup, complaint submission, and faculty discovery.
+
+![Dashboard with the chat assistant](docs/screenshots/chatbot.png)
+
+| Timetable | Faculty search |
+|---|---|
+| ![Timetable](docs/screenshots/timetable.png) | ![Faculty search](docs/screenshots/faculty.png) |
 
 This project currently runs entirely on mocked frontend data. The API layer in `src/api.js` simulates network delays and returns hardcoded responses until a backend is connected.
 
